@@ -27,8 +27,8 @@ ADD_DEFINITIONS(-Wall -Wextra)
 #ADD_DEFINITIONS(-DVERBOSE)
 
 # Install directories
-SET(HEADER_DIR /usr/include/libsocket)
-SET(LIB_DIR /usr/lib)
+SET(HEADER_DIR include/libsocket)
+SET(LIB_DIR lib${LIB_SUFFIX})
 
 ADD_SUBDIRECTORY(C/)
 ADD_SUBDIRECTORY(headers/)
