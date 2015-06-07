@@ -32,7 +32,7 @@ ENDIF()
 
 # Install directories
 SET(HEADER_DIR "include/libsocket")
-SET(LIB_DIR "lib")
+SET(LIB_DIR lib${LIB_SUFFIX})
 
 ADD_SUBDIRECTORY(C/)
 ADD_SUBDIRECTORY(headers/)
